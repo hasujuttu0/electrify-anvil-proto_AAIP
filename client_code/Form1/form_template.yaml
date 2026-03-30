@@ -1,21 +1,22 @@
 components:
-- layout_properties: {grid_position: 'DZEFTG,PQQAPQ'}
-  name: button_1
-  properties: {text: button_1}
-  type: Button
 - components:
-  - layout_properties: {width: 200, x: 117.09375, y: 833.15625}
-    name: check_box_1
-    properties: {text: check_box_1}
-    type: CheckBox
-  - layout_properties: {width: 200, x: 113.09375, y: 0.09375}
-    name: text_box_1
-    properties: {text: sdrweqasd}
-    type: TextBox
-  - layout_properties: {width: 312.671875, x: 35.375, y: 125.046875}
-    name: frame_img
-    properties: {display_mode: original_size, height: 902, source: '_/theme/Model=iPhone 17, Color=Black, Orientation=Portrait.png'}
-    type: Image
+  - components:
+    - layout_properties: {col_xs: 1, row: WQQPFZ, width_xs: 11}
+      name: label_1
+      properties: {}
+      type: Label
+    - layout_properties: {col_xs: 1, row: ROCCBA, width_xs: 11}
+      name: image_2
+      properties: {}
+      type: Image
+    - layout_properties: {col_xs: 1, row: ROCCBA, width_xs: 11}
+      name: image_1
+      properties: {}
+      type: Image
+    layout_properties: {width: 402, x: 91.046875, y: 107.046875}
+    name: grid_panel_1
+    properties: {}
+    type: GridPanel
   data_bindings: []
   layout_properties: {grid_position: 'DZEFTG,SIOQQS'}
   name: xy_panel_1
