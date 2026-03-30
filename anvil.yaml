@@ -1,4 +1,10 @@
 allow_embedding: false
+db_schema:
+  table_1:
+    client: none
+    columns: []
+    server: full
+    title: Table 1
 dependencies: []
 metadata: {logo_img: 'asset:ChatGPT Image Mar 16, 2026, 03_58_33 PM.png'}
 name: Electrify-Anvil-Proto
