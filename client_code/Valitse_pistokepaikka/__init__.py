@@ -1,9 +1,9 @@
-from ._anvil_designer import Form1Template
+from ._anvil_designer import Valitse_pistokepaikkaTemplate
 from anvil import *
 import plotly.graph_objects as go
 
 
-class Form1(Form1Template):
+class Valitse_pistokepaikka(Valitse_pistokepaikkaTemplate):
   def __init__(self, **properties):
     # Set Form properties and Data Bindings.
     self.init_components(**properties)
