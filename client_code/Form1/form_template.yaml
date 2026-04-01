@@ -4,6 +4,10 @@ components:
     name: grid_panel_1
     properties: {}
     type: GridPanel
+  - layout_properties: {width: 200, x: 152.236328125, y: 765.44921875}
+    name: button_1
+    properties: {text: button_1}
+    type: Button
   layout_properties: {grid_position: 'XVOYDU,IXJKCX'}
   name: xy_panel_1
   properties: {height: '872', width: 402}
