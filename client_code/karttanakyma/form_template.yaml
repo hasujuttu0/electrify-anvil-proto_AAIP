@@ -22,8 +22,9 @@ components:
             margin: [null, 7, null, null]
           text: ''
         type: Button
+      layout_properties: {}
       name: grid_panel_3
-      properties: {background: 'theme:Primary Container'}
+      properties: {background: ''}
       type: GridPanel
     - layout_properties: {}
       name: spacer_2
