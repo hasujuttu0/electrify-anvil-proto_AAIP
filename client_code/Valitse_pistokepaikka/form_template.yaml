@@ -92,7 +92,7 @@ components:
   - components:
     - layout_properties: {col_xs: 0, row: WPMQQW, width_xs: 6}
       name: valitse_btn
-      properties: {bold: true, font_size: 20, role: tonal-button, text: Valitse}
+      properties: {bold: true, font_size: 20, role: filled-button, text: Valitse}
       type: Button
     - event_bindings: {}
       layout_properties: {col_xs: 6, row: WPMQQW, width_xs: 6}
