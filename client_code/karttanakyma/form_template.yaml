@@ -1,25 +1,65 @@
 components:
 - components:
   - components:
-    - layout_properties: {col_xs: 0, row: BNFEQZ, width_xs: 4}
-      name: outlined_button_1
-      properties: {role: outlined-button, text: outlined_button_1}
-      type: Button
-    - layout_properties: {col_xs: 4, row: BNFEQZ, width_xs: 4}
-      name: outlined_button_2
-      properties: {role: outlined-button, text: outlined_button_2}
-      type: Button
-    - layout_properties: {col_xs: 8, row: BNFEQZ, width_xs: 4}
-      name: outlined_button_3
-      properties: {role: outlined-button, text: outlined_button_3}
-      type: Button
-    layout_properties: {width: 400, x: 0, y: 827}
-    name: grid_panel_1
-    properties: {}
-    type: GridPanel
+    - layout_properties: {}
+      name: spacer_3
+      properties: {height: 18}
+      type: Spacer
+    - components:
+      - layout_properties: {col_xs: 0, row: RRHIGC, width_xs: 2}
+        name: hamburger_menu_btn
+        properties: {icon: 'fa:align-justify', text: ''}
+        type: Button
+      - layout_properties: {col_xs: 3, row: RRHIGC, width_xs: 6}
+        name: search_textbox
+        properties: {background: 'theme:Primary Container', text: Hae pistokepaikkoja}
+        type: TextBox
+      - layout_properties: {col_xs: 9, row: RRHIGC, width_xs: 1}
+        name: search_btn
+        properties:
+          icon: fa:search
+          spacing:
+            margin: [null, 7, null, null]
+          text: ''
+        type: Button
+      name: grid_panel_3
+      properties: {background: 'theme:Primary Container'}
+      type: GridPanel
+    - layout_properties: {}
+      name: spacer_2
+      properties: {height: 76}
+      type: Spacer
+    - layout_properties: {}
+      name: map
+      properties: {height: 596}
+      type: GoogleMap
+    - name: spacer_1
+      properties: {height: 32}
+      type: Spacer
+    - components:
+      - layout_properties: {col_xs: 0, row: BNFEQZ, width_xs: 4}
+        name: asetukset_btn
+        properties: {role: outlined-button, text: asetukset}
+        type: Button
+      - layout_properties: {col_xs: 4, row: BNFEQZ, width_xs: 4}
+        name: koti_btn
+        properties: {role: outlined-button, text: koti}
+        type: Button
+      - layout_properties: {col_xs: 8, row: BNFEQZ, width_xs: 4}
+        name: kartta_btn
+        properties: {role: outlined-button, text: kartta}
+        type: Button
+      layout_properties: {}
+      name: grid_panel_1
+      properties: {background: 'theme:Primary Container'}
+      type: GridPanel
+    layout_properties: {width: 394.8999938964844, x: 5.0999908447265625, y: 6.100006103515625}
+    name: linear_panel_1
+    properties: {background: '#ffffff'}
+    type: LinearPanel
   layout_properties: {grid_position: 'UZCKRN,PIYYSS'}
   name: xy_panel_1
-  properties: {height: '872', width: 402}
+  properties: {background: '', height: '872', width: 402}
   type: XYPanel
 container: {type: ColumnPanel}
 is_package: true
