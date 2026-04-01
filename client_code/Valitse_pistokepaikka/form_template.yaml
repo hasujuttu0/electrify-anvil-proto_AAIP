@@ -104,7 +104,7 @@ components:
     properties: {}
     type: GridPanel
   data_bindings: []
-  layout_properties: {grid_position: 'DZEFTG,RCBIVL'}
+  layout_properties: {grid_position: 'MYTGDS,UWTQXE'}
   name: xy_panel_1
   properties:
     border: ''
