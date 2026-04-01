@@ -30,7 +30,8 @@ components:
       name: spacer_2
       properties: {height: 76}
       type: Spacer
-    - layout_properties: {}
+    - event_bindings: {}
+      layout_properties: {}
       name: map
       properties: {height: 596}
       type: GoogleMap
