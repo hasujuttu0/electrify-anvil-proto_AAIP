@@ -12,7 +12,7 @@ components:
         type: Button
       - layout_properties: {col_xs: 3, row: RRHIGC, width_xs: 6}
         name: search_textbox
-        properties: {background: '', text: Etsi pistokepaikkoja}
+        properties: {background: '', text: ''}
         type: TextBox
       - layout_properties: {col_xs: 9, row: RRHIGC, width_xs: 1}
         name: search_btn
