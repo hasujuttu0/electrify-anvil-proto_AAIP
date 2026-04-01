@@ -43,7 +43,7 @@ components:
         type: Button
       - layout_properties: {col_xs: 4, row: BNFEQZ, width_xs: 4}
         name: koti_btn
-        properties: {role: outlined-button, text: koti}
+        properties: {role: outlined-button, text: Koti}
         type: Button
       - layout_properties: {col_xs: 8, row: BNFEQZ, width_xs: 4}
         name: kartta_btn
