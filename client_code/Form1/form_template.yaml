@@ -1,7 +1,7 @@
 components:
 - components:
   - components:
-    - layout_properties: {col_xs: 0, row: LENRZS, width_xs: 3}
+    - layout_properties: {col_xs: 3, row: LENRZS, width_xs: 3}
       name: button_1
       properties: {text: button_1}
       type: Button
