@@ -45,7 +45,16 @@ components:
     name: maksutapabtn
     properties: {background: 'theme:On Primary Container', foreground: '', icon: 'fa:credit-card-alt', text: Hallitse maksutapoja}
     type: Button
-  - layout_properties: {width: 274.609125, x: 106.953125, y: 561.421875}
+  - layout_properties: {width: 237.078125, x: 94.703125, y: 456.78125}
+    name: maksutapatxt
+    properties:
+      background: theme:Outline
+      foreground: theme:On Secondary Container
+      text: |-
+        MAKSUTAPA
+        Visa Debit **** **** **** 1234
+    type: TextArea
+  - layout_properties: {width: 274.59375, x: 73.875, y: 559.484375}
     name: ajoneuvotxt
     properties:
       background: theme:Outline
@@ -54,15 +63,32 @@ components:
         OLETUS AJONEUVO
         Fiat Punto ABC-123
     type: TextArea
-  - layout_properties: {width: 237.078125, x: 85.828125, y: 456.734375}
-    name: maksutapatxt
+  - layout_properties: {width: 337.953125, x: 44.921875, y: 361.0625}
+    name: osoitetxt
     properties:
       background: theme:Outline
+      foreground: theme:On Secondary Container
       text: |-
-        MAKSUTAPA
-        Visa Debit **** **** **** 1234
+        OSOITE
+        Yliopistonkatu 34, 53850 Lappeenranta
     type: TextArea
-  layout_properties: {grid_position: 'ELJPDK,FLQVSP'}
+  - layout_properties: {width: 146.453125, x: 127.796875, y: 296.5625}
+    name: nimitxt
+    properties: {background: '', foreground: 'theme:On Secondary Container', height: 37.8984375, text: Erkki Esimerkki}
+    type: TextArea
+  - layout_properties: {width: 200, x: 101.28125, y: 127.46875}
+    name: image_1
+    properties: {height: 151.84375}
+    type: Image
+  - layout_properties: {width: 59.109375, x: 19.375, y: 18.109375}
+    name: profiilitakaisinbtn
+    properties: {icon: 'fa:arrow-left', text: ''}
+    type: Button
+  - layout_properties: {width: 99.28125, x: 143.640625, y: 17.921875}
+    name: text_area_2
+    properties: {height: 34.2734375, text: PROFIILI}
+    type: TextArea
+  layout_properties: {grid_position: 'OJNGVP,LZCEXZ'}
   name: xy_panel_1
   properties: {background: '', height: '872', visible: true, width: 402}
   type: XYPanel
@@ -72,7 +98,7 @@ container:
     spacing:
       margin: [0, '0', null, null]
       padding: [0, null, null, 1]
-    visible: false
+    visible: true
   type: ColumnPanel
 is_package: true
 slots: {}
