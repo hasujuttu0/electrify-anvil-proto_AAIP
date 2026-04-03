@@ -43,13 +43,24 @@ components:
     type: Button
   - layout_properties: {width: 210.75, x: 6.671875, y: 681}
     name: maksutapabtn
-    properties: {background: 'theme:On Primary Container', icon: 'fa:credit-card-alt', text: Hallitse maksutapoja}
+    properties: {background: 'theme:On Primary Container', foreground: '', icon: 'fa:credit-card-alt', text: Hallitse maksutapoja}
     type: Button
-  - layout_properties: {width: 200, x: 182.140625, y: 544.171875}
-    name: text_area_1
+  - layout_properties: {width: 274.609125, x: 106.953125, y: 561.421875}
+    name: ajoneuvotxt
     properties:
+      background: theme:Outline
+      foreground: theme:On Secondary Container
       text: |
         OLETUS AJONEUVO
+        Fiat Punto ABC-123
+    type: TextArea
+  - layout_properties: {width: 237.078125, x: 85.828125, y: 456.734375}
+    name: maksutapatxt
+    properties:
+      background: theme:Outline
+      text: |-
+        MAKSUTAPA
+        Visa Debit **** **** **** 1234
     type: TextArea
   layout_properties: {grid_position: 'ELJPDK,FLQVSP'}
   name: xy_panel_1
