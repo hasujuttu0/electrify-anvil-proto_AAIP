@@ -19,9 +19,30 @@ components:
     name: Otsikko_panel
     properties: {background: 'theme:Primary', height: 47}
     type: XYPanel
-  - layout_properties: {width: 173, x: 22.546875, y: 73.046875}
+  - components:
+    - layout_properties: {width: 173, x: 0, y: 13.953125}
+      name: Rutiinit_button
+      properties: {text: button_1}
+      type: Button
+    - layout_properties: {width: 173, x: 0, y: 59}
+      name: Ostohistoria_button
+      properties: {text: button_2}
+      type: Button
+    - layout_properties: {width: 173, x: 0, y: 105}
+      name: Ajoneuvot_button
+      properties: {text: button_3}
+      type: Button
+    - layout_properties: {width: 173, x: 0, y: 145.046875}
+      name: Palaute_button
+      properties: {text: button_4}
+      type: Button
+    - layout_properties: {width: 173, x: 0, y: 203}
+      name: Kirjaudu_ulos_button
+      properties: {text: button_5}
+      type: Button
+    layout_properties: {width: 173, x: 22.546875, y: 73.046875}
     name: Menu_panel
-    properties: {height: 216, visible: false}
+    properties: {height: 243, visible: false}
     type: XYPanel
   - layout_properties: {width: 200, x: 136.046875, y: 135.046875}
     name: Ilmoitukset_dropdown
