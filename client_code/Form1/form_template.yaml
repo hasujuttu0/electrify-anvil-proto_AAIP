@@ -35,7 +35,7 @@ components:
     type: GridPanel
   layout_properties: {grid_position: 'OXVTQJ,EVLOHQ'}
   name: xy_panel_1
-  properties: {height: '872', width: 402}
+  properties: {background: '', height: '872', width: 402}
   type: XYPanel
 container:
   data_bindings: []
