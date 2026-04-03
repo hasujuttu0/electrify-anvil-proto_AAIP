@@ -22,23 +22,26 @@ components:
   - components:
     - layout_properties: {width: 173, x: 0, y: 13.953125}
       name: Rutiinit_button
-      properties: {text: button_1}
+      properties: {text: Luo rutiineja}
       type: Button
     - layout_properties: {width: 173, x: 0, y: 59}
       name: Ostohistoria_button
-      properties: {text: button_2}
+      properties: {text: Ostohistoria}
       type: Button
     - layout_properties: {width: 173, x: 0, y: 105}
       name: Ajoneuvot_button
-      properties: {text: button_3}
-      type: Button
-    - layout_properties: {width: 173, x: 0, y: 145.046875}
-      name: Palaute_button
-      properties: {text: button_4}
+      properties:
+        text: |-
+          Hallinnoi
+          ajoneuvoja
       type: Button
     - layout_properties: {width: 173, x: 0, y: 203}
       name: Kirjaudu_ulos_button
-      properties: {text: button_5}
+      properties: {text: Kirjaudu ulos}
+      type: Button
+    - layout_properties: {width: 173, x: 0, y: 165.046875}
+      name: Palaute_button
+      properties: {text: Lähetä palautetta}
       type: Button
     layout_properties: {width: 173, x: 22.546875, y: 73.046875}
     name: Menu_panel
@@ -79,7 +82,7 @@ components:
       type: Button
     layout_properties: {width: 382, x: 4.59375, y: 820}
     name: Navigaatio_panel
-    properties: {height: 47}
+    properties: {background: 'theme:On Primary Container', height: 47}
     type: XYPanel
   layout_properties: {grid_position: 'NMNASW,SIYZLF'}
   name: Naytto_panel
