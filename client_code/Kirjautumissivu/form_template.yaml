@@ -1,0 +1,37 @@
+components:
+- components:
+  - components:
+    - layout_properties: {}
+      name: welcome_txt
+      properties: {align: center, font_size: 45, role: headline, text: Tervetuloa!}
+      type: Label
+    layout_properties: {width: 396.5, x: 0, y: 118.046875}
+    name: linear_panel_2
+    properties: {}
+    type: LinearPanel
+  - layout_properties: {width: 397.59375, x: 0, y: 233.328125}
+    name: image_1
+    properties: {source: '_/theme/ChatGPT Image Mar 16, 2026, 03_58_33 PM.png'}
+    type: Image
+  - layout_properties: {width: 396.5, x: 0.046875, y: 651.515625}
+    name: Luo_kayttaja_btn
+    properties: {font_size: 25, role: filled-button, text: Luo käyttäjätili}
+    type: Button
+  - layout_properties: {width: 396.5, x: 3.140625, y: 519.078125}
+    name: kirjaudu_btn
+    properties: {font_size: 25, role: filled-button, text: Kirjaudu sisään}
+    type: Button
+  layout_properties: {grid_position: 'XVOYDU,IXJKCX'}
+  name: xy_panel_1
+  properties: {height: '872', width: 402}
+  type: XYPanel
+container:
+  data_bindings: []
+  properties:
+    spacing:
+      margin: [0, '0', null, null]
+      padding: [0, null, null, 1]
+    visible: true
+  type: ColumnPanel
+is_package: true
+slots: {}
