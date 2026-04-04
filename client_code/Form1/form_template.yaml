@@ -72,7 +72,7 @@ components:
         OSOITE
         Yliopistonkatu 34, 53850 Lappeenranta
     type: TextArea
-  - layout_properties: {width: 146.453125, x: 127.796875, y: 296.5625}
+  - layout_properties: {width: 178.67175, x: 127.796875, y: 296.5625}
     name: nimitxt
     properties: {background: '', foreground: 'theme:On Secondary Container', height: 37.8984375, text: Erkki Esimerkki}
     type: TextArea
@@ -84,7 +84,7 @@ components:
     name: profiilitakaisinbtn
     properties: {icon: 'fa:arrow-left', text: ''}
     type: Button
-  - layout_properties: {width: 99.28125, x: 143.640625, y: 17.921875}
+  - layout_properties: {width: 130.6092500000001, x: 143.640625, y: 17.921875}
     name: text_area_2
     properties: {height: 34.2734375, text: PROFIILI}
     type: TextArea
