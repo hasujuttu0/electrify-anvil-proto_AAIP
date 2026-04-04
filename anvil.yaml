@@ -19,5 +19,5 @@ services:
 - client_config: {}
   server_config: {}
   source: /runtime/services/tables.yml
-startup: {module: Kirjautumissivu, type: form}
+startup: {module: LuoKayttaja_Kirjaudu, type: form}
 startup_form: null
