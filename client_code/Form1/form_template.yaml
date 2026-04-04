@@ -1,6 +1,0 @@
-components: []
-container:
-  data_bindings: []
-  type: ColumnPanel
-is_package: true
-slots: {}
